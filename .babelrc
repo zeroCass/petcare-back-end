@@ -1,0 +1,12 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "@api": "./src/api",
+          "@config": "./src/config",
+          "@db": "./src/config/db.js"
+        }
+      }]
+    ]
+  }
